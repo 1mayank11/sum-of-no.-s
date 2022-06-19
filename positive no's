@@ -1,0 +1,9 @@
+const input = [ 1, -5, 2, 10, -30, 29, 50];
+let sum=0;
+console.log("sum of positive values is :")
+for(i=0;i<=6;i++)
+{
+    if(input[i]>0)
+        sum=sum+input[i];
+}
+console.log(sum);
